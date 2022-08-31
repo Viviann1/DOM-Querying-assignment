@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+   <script src="main.js" defer></script>
+    <title>Circle Maker</title>
+    <style>
+      .button {
+        background-color: rgba(233, 129, 49, 0.2);
+        border-radius: 5px;
+        font-size: 21px;
+        color: bisque;
+        font-family: monospace;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 42px;
+        margin-top: 30px;
+        border: 1px solid wheat;
+
+      }
+      .button:hover {
+        background-color: bisque;
+        color: rgb(156, 75, 14);
+
+      }
+      .input {
+        border: 1px solid  rgb(233, 129, 49);
+        border-radius: 5px;
+        height: 35px;
+        margin-left: 20px;
+
+        font-family: monospace;
+        padding-left: 20px;
+        background-color: rgb(239, 226, 202);
+      }
+    </style>
+</head>
+<body>
+  <input class= "input" type="number" id="inputNum" />
+  <button class="button" onclick="makeCircles()">Make some circles...</button>
+  <div id="circleContainer"></div>  
+</body>
+</html> 
